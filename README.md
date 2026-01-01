@@ -29,14 +29,14 @@ The overarching goal is to bridge experimental materials science with applied da
 - Interaction effects highlighted nonlinear structure–property relationships
 
 ## Project Structure
-├── notebooks/ # Jupyter notebooks for analysis and modeling
-│ ├── 01_eda_and_linear_regression.ipynb
-│ ├── 02_feature_selection_lasso.ipynb
-│ └── 03_nonlinear_models_and_optimization.ipynb
+data-driven-materials-optimization/
+├── notebooks/
+│   ├── 01_eda_and_linear_regression.ipynb
+│   ├── 02_feature_selection_lasso.ipynb
+│   └── 03_nonlinear_models_and_optimization.ipynb
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
 
 ## Skills Demonstrated
 - Applied machine learning for materials and engineering problems
