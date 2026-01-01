@@ -1,62 +1,51 @@
 # Data-Driven Materials Optimization
 
-Data-driven predictive modeling and regression-based optimization 
-using experimental materials and nanocomposites data.
+Data-driven predictive modeling and regression-based optimization using experimental materials and nanocomposites data.
 
 ## Motivation
+This project demonstrates how experimental materials data can be leveraged using data-driven modeling and machine learning techniques to predict material properties and optimize material formulations.
 
-This project demonstrates how experimental materials data can be 
-leveraged using data-driven modeling and machine learning techniques 
-to predict properties and optimize material formulations.
-
-The goal is to bridge experimental materials science with 
-applied data science and predictive modeling.
+The overarching goal is to bridge experimental materials science with applied data science and interpretable predictive modeling.
 
 ## Dataset
+- Experimental dataset inspired by published nanocomposite studies  
+- Number of samples: ~30  
+- Input features: processing parameters and material composition variables  
+- Target variables: mechanical and material performance metrics  
 
-- Experimental dataset inspired by published nanocomposite studies
-- Number of samples: ~30
-- Features: processing parameters and material composition variables
-- Target variables: mechanical and material performance metrics
-
-Note: The dataset used here is anonymized and simplified and does not 
-contain confidential or proprietary experimental data.
+**Note:** The dataset used in this repository is anonymized, simplified, and intended solely for methodological demonstration. It does not contain confidential or proprietary experimental data.
 
 ## Methods
-
-- Data preprocessing and feature scaling (standardization / min-max)
-- Linear regression and interaction models
-- Regularized regression (Lasso)
-- Model evaluation using R², adjusted R², and RMSE
-- Statistical significance analysis of model coefficients
+- Data preprocessing and feature scaling (standardization)
+- Baseline linear regression and interaction modeling
+- Regularized regression using LASSO for feature selection
+- Model evaluation using R² and RMSE
+- Interpretation of model coefficients and dominant variables
 
 ## Results
-
-- High predictive performance achieved on experimental datasets
-- Identification of dominant features affecting material performance
-- Lasso regression enabled feature selection and model simplification
-- Interaction terms revealed nonlinear relationships between variables
+- Strong predictive performance achieved on experimental-style datasets
+- Identification of key features influencing material performance
+- LASSO regression enabled effective feature selection and model simplification
+- Interaction effects highlighted nonlinear structure–property relationships
 
 ## Project Structure
+├── notebooks/ # Jupyter notebooks for analysis and modeling
+│ ├── 01_eda_and_linear_regression.ipynb
+│ ├── 02_feature_selection_lasso.ipynb
+│ └── 03_nonlinear_models_and_optimization.ipynb
+├── README.md
+├── LICENSE
+└── .gitignore
 
-├── data/               # Processed datasets  
-├── notebooks/          # Jupyter notebooks for analysis and modeling  
-├── src/                # Core modeling scripts  
-├── results/            # Figures and outputs  
-└── README.md  
 
 ## Skills Demonstrated
-
-- Applied machine learning for engineering problems
+- Applied machine learning for materials and engineering problems
 - Regression modeling and feature engineering
 - Statistical analysis and model interpretation
 - Python (NumPy, Pandas, scikit-learn)
 - Translating experimental data into predictive insights
 
 ## Relation to Research
+This project is inspired by methodologies commonly used in peer-reviewed research on data-driven modeling and optimization of nanocomposites.
 
-This project is inspired by methodologies used in peer-reviewed 
-research on data-driven optimization of nanocomposites.
-
-The implementation here is simplified and adapted for demonstration 
-purposes in an applied data science context.
+The implementation is intentionally simplified and adapted for demonstration purposes in an applied data science and research-oriented context.
